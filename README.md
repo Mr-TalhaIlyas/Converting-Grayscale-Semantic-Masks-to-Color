@@ -4,14 +4,14 @@ This `lib` converts the grayscale semantic masks obtained at the output a CNN an
 `cityscape` dataset you have 30 channels at the output of CNN and after using `argmax` to create one channel semantic mask you
 get the following output
 
-
+![alt text](https://github.com/Mr-TalhaIlyas/Converting-Grayscale-Semantic-Masks-to-Color/blob/master/screens/gray.png)
 which you can use for measuring `IOU`, `Dice` or other evaluation metrics. But it is a bit difficult for human visualization so this package 
 converts the above output to following ouptut easy to visualize.
-
+![alt text](https://github.com/Mr-TalhaIlyas/Converting-Grayscale-Semantic-Masks-to-Color/blob/master/screens/rgb.png)
 ## Usage
 
 ```python
-form gray2rgb import gray2rgb
+from gray2rgb import gray2rgb
 
 rgb = gray2rgb(mask, use_pallet='cityscape', custom_pallet=None)
 
