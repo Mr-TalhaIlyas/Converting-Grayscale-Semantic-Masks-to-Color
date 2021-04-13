@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI version](https://badge.fury.io/py/0.0.1.svg)](https://badge.fury.io/py/0.0.1) [![DOI](https://zenodo.org/badge/357129295.svg)](https://zenodo.org/badge/latestdoi/357129295)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI](https://img.shields.io/pypi/v/two) [![DOI](https://zenodo.org/badge/357129295.svg)](https://zenodo.org/badge/latestdoi/357129295)
 
 # Grayscale to Color Semantic Mask Converotr
 
@@ -10,6 +10,22 @@ get the following output
 which you can use for measuring `IOU`, `Dice` or other evaluation metrics. But it is a bit difficult for human visualization so this package 
 converts the above output to following ouptut easy to visualize.
 ![alt text](https://github.com/Mr-TalhaIlyas/Converting-Grayscale-Semantic-Masks-to-Color/blob/master/screens/rgb.png)
+
+## Dependencies
+
+```
+numpy
+cv2
+tensorflow
+python >= 3.6
+```
+
+## Installation
+
+```
+pip install gray2color
+```
+
 ## Usage
 
 ```python
