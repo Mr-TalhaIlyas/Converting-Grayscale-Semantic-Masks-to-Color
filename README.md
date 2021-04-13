@@ -30,10 +30,10 @@ pip install gray2color
 
 ```python
 import cv2
-from gray2rgb import gray2rgb
+from gray2color import gray2color
 
 mask = cv2.imread('../gray.png', 0)
-rgb = gray2rgb(mask, use_pallet='cityscape', custom_pallet=None)
+rgb = gray2color(mask, use_pallet='cityscape', custom_pallet=None)
 
 ```
 ## Available Pallets
