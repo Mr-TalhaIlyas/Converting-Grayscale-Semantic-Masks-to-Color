@@ -1,3 +1,5 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PyPI version](https://badge.fury.io/py/0.0.1.svg)](https://badge.fury.io/py/0.0.1) [![DOI](https://zenodo.org/badge/357129295.svg)](https://zenodo.org/badge/latestdoi/357129295)
+
 # Grayscale to Color Semantic Mask Converotr
 
 This `lib` converts the grayscale semantic masks obtained at the output a CNN and fills it with colors for example in case of 
