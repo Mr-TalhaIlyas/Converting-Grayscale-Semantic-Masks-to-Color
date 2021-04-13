@@ -21,7 +21,7 @@ python >= 3.6
 ```
 
 ## Installation
-
+[Pypi](https://pypi.org/project/gray2color/)
 ```
 pip install gray2color
 ```
