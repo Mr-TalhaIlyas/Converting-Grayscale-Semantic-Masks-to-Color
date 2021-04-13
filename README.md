@@ -11,8 +11,10 @@ converts the above output to following ouptut easy to visualize.
 ## Usage
 
 ```python
+import cv2
 from gray2rgb import gray2rgb
 
+mask = cv2.imread('../gray.png', 0)
 rgb = gray2rgb(mask, use_pallet='cityscape', custom_pallet=None)
 
 ```
