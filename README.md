@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI](https://img.shields.io/pypi/v/two) [![DOI](https://zenodo.org/badge/357129295.svg)](https://zenodo.org/badge/latestdoi/357129295)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) ![PyPI](https://img.shields.io/pypi/v/two) [![DOI](https://zenodo.org/badge/357129295.svg)](https://zenodo.org/badge/latestdoi/357129295) [![Downloads](https://pepy.tech/badge/model-profiler)](https://pepy.tech/project/model-profiler)
 
 # Grayscale to Color Semantic Mask Converotr
 
