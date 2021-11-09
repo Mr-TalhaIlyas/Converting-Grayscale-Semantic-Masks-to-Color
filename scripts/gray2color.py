@@ -15,7 +15,7 @@ message = 'Select a Pallet to be used form the follwoing list or define a custom
 
 def gray2color(mask, use_pallet, custom_pallet=None):
     
-    if custom_pallet == None:
+    if custom_pallet is None:
         if use_pallet == 'ade20k':
             from utils.ade20k import pallet_ade20k as pallet
         elif use_pallet == 'cityscape':
