@@ -13,6 +13,8 @@ cityscape_class_names = ['road', 'sidewalk', 'building', 'wall', 'fence', 'pole'
                 'vegetation', 'terrain', 'sky', 'person', 'rider', 'car',
                 'truck', 'bus', 'train', 'motorcycle', 'bicycle']
 
+
+valid_classes = [7, 8, 11, 12, 13, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 32, 33]
 # this will be usefull in case you wanna do Panoptic Segmentation
 cityscape_THING_LIST = [11, 12, 13, 14, 15, 16, 17, 18]
 
