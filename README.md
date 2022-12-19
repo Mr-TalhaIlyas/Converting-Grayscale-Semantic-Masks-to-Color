@@ -33,7 +33,11 @@ from gray2color import gray2color
 
 mask = cv2.imread('../gray.png', 0)
 rgb = gray2color(mask, use_pallet='cityscape', custom_pallet=None)
+## Lambda Function
 
+from gray2color import gray2color
+g2c = lambda x : gray2color(x, use_pallet='cityscape',
+                            custom_pallet=np.asarray(config['pallet']).reshape(1,-1,3)/255)
 ```
 ## Available Pallets
 Available Pallets are `ade20k`, `cityscape`, `lip`, `pannuke`, `pascal`, `vistas`
