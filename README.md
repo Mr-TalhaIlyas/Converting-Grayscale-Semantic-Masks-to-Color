@@ -26,6 +26,20 @@ pip install gray2color
 ```
 
 ## Usage
+### Update
+#### Get matplot color pallets
+
+```python
+import matplotlib.pyplot as plt
+# get matplot tab10 pallet RGB values
+tab10 = np.array(plt.cm.tab10.colors)
+# add [0,0,0] at 0th index for BG
+tab10 = np.concatenate((np.array([[0,0,0]]), tab10), axis=0)
+
+tab10 = tab10.reshape(1, 11, 3)
+# now pass this as custom pallet
+
+```
 
 ```python
 import cv2
